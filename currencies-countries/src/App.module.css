@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 12px;
+    margin: auto;
+}
+
+.wrapper p {
+    color: #333;
+    font: 400 24px Montserrat;
+}
+
+.wrapper .img {
+    background-image: url(./assets/Chevron.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 5px;
+}
+
+.list{
+    width: 250px;
+    height: 340px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 12px;
+    overflow-y: scroll;
+    margin: auto;
+}
+
+.list p{
+    color: #333;
+    font: 400 24px Montserrat;
+    padding: 5px 0;
+}
